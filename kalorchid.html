@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KalOrchid – Anggrek Dendrobium</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap');
+
+```
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fdf8f3;
+  font-family: 'Poppins', sans-serif;
+  color: #324b3a;
+  overflow-x: hidden;
+}
+
+header {
+  background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  border-bottom: 2px solid #e5dcd1;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  color: #a85774;
+  font-size: 3rem;
+}
+
+header p {
+  color: #527058;
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 1.5rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.product img {
+  width: 450px;
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product img:hover {
+  transform: scale(1.03);
+}
+
+.product-info {
+  max-width: 500px;
+}
+
+.product-info h2 {
+  font-family: 'Playfair Display', serif;
+  color: #527058;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.product-info p {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.care-section {
+  background-color: #fffaf4;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.care-section h2 {
+  font-family: 'Playfair Display', serif;
+  color: #a85774;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.care-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.care-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.care-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.care-card img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.care-card p {
+  font-size: 0.95rem;
+}
+
+.insta-section {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.instagram-button {
+  display: inline-block;
+  background: #a85774;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.instagram-button:hover {
+  background: #8b4b64;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f5efe9;
+  color: #6a7a70;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  .product {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+```
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KalOrchid</h1>
+    <p>Kalimantan Orchid – Keindahan Alam dalam Setiap Tunas</p>
+  </header>
+
+  <section class="product">
+    <img src="dendrobium.jpg" alt="Anggrek Dendrobium">
+    <div class="product-info">
+      <h2>Anggrek Dendrobium</h2>
+      <p>
+        Anggrek Dendrobium adalah salah satu varietas paling populer di dunia anggrek. Dikenal dengan kelopak bunganya yang elegan dan warna yang menenangkan, tanaman ini menjadi simbol keindahan alami dan ketenangan tropis. 
+        Cocok untuk pemula maupun kolektor tanaman hias.
+      </p>
+    </div>
+  </section>
+
+  <section class="care-section">
+    <h2>Perawatan Anggrek</h2>
+    <div class="care-cards">
+      <div class="care-card">
+        <img src="https://img.icons8.com/emoji/48/sun-emoji.png" alt="Cahaya">
+        <p>Gunakan cahaya terang tidak langsung seperti sinar matahari pagi.</p>
+      </div>
+      <div class="care-card">
+        <img src="air.png" alt="Air">
+        <p>Siram saat media mulai mengering, jangan terlalu basah agar akar tidak busuk.</p>
+      </div>
+      <div class="care-card">
+        <img src="https://img.icons8.com/emoji/48/thermometer-emoji.png" alt="Suhu">
+        <p>Suhu ideal 18–32°C. Hindari suhu ekstrem yang terlalu dingin atau panas.</p>
+      </div>
+      <div class="care-card">
+        <img src="lembab.jpg" alt="Kelembapan">
+        <p>Jaga kelembapan 60–80%, terutama di musim panas atau ruangan ber-AC.</p>
+      </div>
+      <div class="care-card">
+        <img src="mediatanam.png" alt="Media Tanam">
+        <p>Gunakan media poros seperti arang, sabut kelapa, atau pakis untuk aliran udara baik.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="insta-section">
+    <a class="instagram-button" href="https://www.instagram.com/kalorchid" target="_blank">🌿 Kunjungi Instagram Kami</a>
+  </div>
+
+  <footer>
+    © 2025 KalOrchid – Kalimantan Orchid. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
